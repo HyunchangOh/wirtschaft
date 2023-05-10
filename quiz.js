@@ -35,8 +35,8 @@ var problems={
     Handelsgesetzbuch: "Gesetzbuch, das den Bereich des geschäftlichen Handels betrifft",
     Bürgerliches_Gesetzbuch: "Gesetzbuch, das unter anderem den Bereich des privaten Handels betrifft",
     Nichtigkeit: "Rechtsgeschäft, welches abgeschlossen, aber nicht gültig ist",
-    Anfechtbarkeit: "Rechtsgeschäft, welches abgeschlossen, aber für ungültig erklärt werden kann, weil ein Teilnehmer nicht geschäftsfähig ist",
-    schwebende_Unwirksamkeit: "Zustand eines Rechtsgeschäfts, welches abgeschlossen, aber für ungültig erklärt werden soll",
+    Anfechtbarkeit: "Zustand eines Rechtsgeschäfts, welches abgeschlossen, aber für ungültig erklärt werden soll",
+    schwebende_Unwirksamkeit: "Rechtsgeschäft, welches abgeschlossen, aber für ungültig erklärt werden kann, weil ein Teilnehmer nicht geschäftsfähig ist", 
     übereinstimmende_Willenserklärungen: "Wird benötigt damit ein Rechtgeschäft zustande kommt",
     Kaufvertrag: "Vereinbarung über einen Verkauf eines Gutes",
     Testament: "Nicht emphfangsbedürftiges einseitiges Rechtsgeschäft",
@@ -59,6 +59,12 @@ var problems={
     Besitzerin: "Wenn Simon ein Fahrrad gehört und er es an seine Freundin Johanna für eine Fahrradtour übers Wochenende ausleiht, dann ist Johanna am Wochenende Besitzerin des Fahrrads.",
     EinseitigeRechtsgeschäft: "hier unterscheidet man zwischen Rechtsgeschäften, bei denen die Willeneserklärung empfangsbedürftig ist und Rechtsgeschäften bei denen die Willenserklärung nicht empfangsbedürftig ist.",
     Empfangsbedürftig: "eine Willenserklärung, deren Wirksamkeit den Zugang beim Empfänger erfordert.",
+    Privatrecht: "Gegenstand des Privatrechts sind die Rechtsbeziehungen der einzelnen Staatsbürger untereinander. Hier gilt das Prinzip der Gleichordnung.",
+    Bürgerliche_recht: "behandelt die Rechts beziehungen die jeder Privatmann ohne Rücksicht auf seine Zugehörigkeit zu einem bestimmten Beruf eingehen kann, es regelt also das privatrechtliche Grundverhältnis",
+    Handelsrecht: "Sonderrecht des Kaufmanns",
+    Arbeitsrecht: "Diejenigen Rechtssätze sind zusammengefasst, die die Arbeitsverhältnisse betreffen.",
+    Öffentliches_Recht: "umfasst alles, was die staatliche Organisation und das Verhältnis zwischen Bürgern und dem Staat regelt.",
+    Verwaltungsrecht: "die engeren Beziehungen der Bürger zum Staat und die Organisation der einzelnen staatlichen Behörden untereinander regelt."
 }
 
 const keys = Object.keys(problems);
