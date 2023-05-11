@@ -128,6 +128,10 @@ const loadQuestions = ()=>{
         if(chosen === answer){
             commentBox.innerText='Korrekt!';
             correct +=1;
+            if(correct==100 && total==100){
+                commentBox.innerText="Korrekt! Du hast eine Schokolade von Hans verdient. Mach ein Foto von dieser Webseite und schick Hans das Foto.";
+                window.alert("Du hast die Wirtschaftpruefung bestanden. Prost! Auf dich!")
+            }
         }
         else{
             commentBox.innerText='Falsh! Die Lösung ist : '+answer;
