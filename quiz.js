@@ -113,31 +113,6 @@ const loadQuestions = ()=>{
         choices.push(choice);
     }
     
-    shuffleArray(choices);
-    console.log(choices);
-    choices.forEach(choice=>{
-        let input = document.createElement('input');
-        input.type = 'radio';
-        input.value = choice;
-        input.id=choice;
-        input.addEventListener('change',(event)=>{
-            var radios = document.getElementsByTagName('input');
-            for(let i = 0; i < radios.length; i++){
-                radios[i].checked=false;
-            }
-            input.checked=true;
-        })
-    
-        let label = document.createElement('label');
-        label.innerText= choice;
-        label.htmlFor=choice;
-    
-        let labelHolder = document.createElement('div');
-        labelHolder.appendChild(input);
-        labelHolder.appendChild(label);
-        choicesBox.appendChild(labelHolder);    
-    })
-
     let weiter = document.createElement('button');
     weiter.innerText = 'Abgeben';
     weiter.addEventListener('click',(event)=>{
@@ -164,6 +139,33 @@ const loadQuestions = ()=>{
             loadQuestions();
         })
         choicesBox.appendChild(next);
+    })
+
+    shuffleArray(choices);
+    console.log(choices);
+    weiter.disabled='disabled';
+    choices.forEach(choice=>{
+        let input = document.createElement('input');
+        input.type = 'radio';
+        input.value = choice;
+        input.id=choice;
+        input.addEventListener('change',(event)=>{
+            var radios = document.getElementsByTagName('input');
+            for(let i = 0; i < radios.length; i++){
+                radios[i].checked=false;
+            }
+            input.checked=true;
+            weiter.disabled=false;
+        })
+    
+        let label = document.createElement('label');
+        label.innerText= choice;
+        label.htmlFor=choice;
+    
+        let labelHolder = document.createElement('div');
+        labelHolder.appendChild(input);
+        labelHolder.appendChild(label);
+        choicesBox.appendChild(labelHolder);    
     })
     choicesBox.appendChild(weiter);
 }
