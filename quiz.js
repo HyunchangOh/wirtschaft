@@ -126,11 +126,11 @@ const loadQuestions = ()=>{
         }
         total+=1;
         if(chosen === answer){
-            commentBox.innerText='Correct!';
+            commentBox.innerText='Korrekt!';
             correct +=1;
         }
         else{
-            commentBox.innerText='Wrong! Answer is : '+answer;
+            commentBox.innerText='Falsh! Die Lösung ist : '+answer;
         }
         weiter.disabled='disabled';
         let next = document.createElement('button');
