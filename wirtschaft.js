@@ -64,7 +64,16 @@ var problems={
     Handelsrecht: "Sonderrecht des Kaufmanns",
     Arbeitsrecht: "Diejenigen Rechtssätze sind zusammengefasst, die die Arbeitsverhältnisse betreffen.",
     Öffentliches_Recht: "umfasst alles, was die staatliche Organisation und das Verhältnis zwischen Bürgern und dem Staat regelt.",
-    Verwaltungsrecht: "die engeren Beziehungen der Bürger zum Staat und die Organisation der einzelnen staatlichen Behörden untereinander regelt."
+    Verwaltungsrecht: "die engeren Beziehungen der Bürger zum Staat und die Organisation der einzelnen staatlichen Behörden untereinander regelt.",
+    Okt12_1998: "Geburtsdatum von Hans",
+    Angebot_und_Nachfrage: "Ein Markt ist definiert als das Zusammentreffen von ___________",
+    Vollkommenen_Märkten: "Preisbildung ist der Prozess des Zustandekommens eines Preises durch das Zusammenwirken von Angebot und Nachfrage. Die Preisbildung ist von der jeweiligen Marktform abhängig. Deshalb unterscheidet man grundsätzlich zwischen der Preisbildung auf ___________ und der Preisbildung auf un_________",
+    Gleichtgewicht: "Unter den idealen Bedingungen der vollständigen Konkurrenz ist die Preisbildung das Ergebnis des Zusammentreffens von Angebot und Nachfrage, bei dem sich der __________preis und die ______________menge bilden",
+    Polypol: "Viele Nachfrager und viele Anbieter",
+    Oligopol: "Viele Nachfrager und wenige Anbieter",
+    Monopol: "Ein Anbieter und viele Nachfrager",
+    Ausgabegewohnheiten: "Jeder private Haushalt hat andere _____________: Einige Menschen besitzen ein Auto und essen Fleisch, andere nutzen ausschließlich öffentliche Verkehrsmittel und sind Vegetarier.",
+    
 }
 
 const keys = Object.keys(problems);
