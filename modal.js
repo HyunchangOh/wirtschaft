@@ -1,15 +1,14 @@
 var problems={
     können_Fähigkeit: ["die Fähigkeit haben","fähig sein","imstande sein","in der Lage sein","vermögen"],
     können_Möglichkeit: ["die Möglichkeit haben","sein zu Inf (nicht müssen)","es ist möglich","sich lassen Inf"],
-    können_Erlaubnis: ["dürfen","die Erlaubnis haben"],
-    dürfen_Erlaubnis: ["können","es ist gestattet","es ist erlaubt","die Erlaubnis haben","die Zustimmung erhalten","die Genehmigung bekommen","neg: es ist verboten"],
+    dürfen_oder_können_Erlaubnis: ["die Erlaubnis haben","können","es ist gestattet","es ist erlaubt","die Erlaubnis haben","die Zustimmung erhalten","die Genehmigung bekommen","neg: es ist verboten"],
     wollen_Wille_Absicht_Bereitschaft: ["die Absicht haben","die Intention haben","beabsichtigen","bereit sein","die Bereitschaft zeigen","vorhaben","bestrebt sein"],
     möchten_Wunsch_Lust: ["den Wunsch haben","wünschen","Lust haben","würde gern Inf"],
     müssen_Notwendigkeit_Zwang_Pflicht: ["gezwung sein","verpflichtet sein","die Pflicht haben","es ist nötig","es ist notwendig","es ist erforderlich","es ist unumgänglich","haben zu Inf","sein zu Inf (nicht können)","neg:brauchen(zu) nicht","neg:kaum, kein, nur"],
     sollen_Auftrag_fremderWille_Erwartung: ["beauftragt sein","den Auftrag haben","es wird erwartet"],
     sollen_Empfehlung: ["es ist ratsam","empfehlenswert","es wäre besser, wenn"],
-    sollen_wiedergabe_gegenwartkonjunktivI_vergangenekonjuktivII: ["Man erzählt sich","Man sagt","Man behauptet","Man hört, dass...","es heißt","wird behauptet","gesagt, dass...","angeblich ..."],
-    wollen_behauptung_gegenwartkonjunktivI_vergangenekonjunktivII: ["Jemand behauptet","Jemand sagt von sich selbst","jemand gibt vor, dass ..."]
+    sollen_wiedergabe_gegenwartkonjunktivI_vergangenekonjuktivII: ["Man erzählt sich","Man sagt","Man behauptet","Man hört dass...","es heißt","wird behauptet","gesagt dass...","angeblich ..."],
+    wollen_behauptung_gegenwartkonjunktivI_vergangenekonjunktivII: ["Jemand behauptet","Jemand sagt von sich selbst","jemand gibt vor dass ..."]
 }
 
 const keys = Object.keys(problems);
